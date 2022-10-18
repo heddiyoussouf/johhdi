@@ -1,9 +1,9 @@
 <?php
 
-namespace Heddiyoussouf\johhdi\Providers;
+namespace Heddiyoussouf\Johhdi\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Heddiyoussouf\johhdi\johhdi;
+use Heddiyoussouf\Johhdi\Joh;
 class JohhdiProvider extends ServiceProvider
 {
     /**
@@ -14,8 +14,8 @@ class JohhdiProvider extends ServiceProvider
     public function register()
     {
         parent::register();
-        $this->app->bind('johhdi', function($app) {
-            return new Johhdi();
+        $this->app->bind('Joh', function($app) {
+            return new Joh();
         });
     }
 

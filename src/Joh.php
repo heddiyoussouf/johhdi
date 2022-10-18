@@ -1,8 +1,8 @@
 <?php
 
-namespace Heddiyoussouf\johhdi;
+namespace Heddiyoussouf\Johhdi;
 
-class Johhdi
+class Joh
 {
     public static function ping()
     {

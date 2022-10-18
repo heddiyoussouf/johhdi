@@ -8,6 +8,6 @@ class JohhdiFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'johhdi';
+        return 'Joh';
     }
 }
