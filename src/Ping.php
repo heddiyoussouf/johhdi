@@ -2,10 +2,10 @@
 
 namespace Heddiyoussouf\Johhdi;
 
-class Joh
+class Ping
 {
     public static function ping()
     {
-        return 'johhdi';
+        return 'pong';
     }
 }

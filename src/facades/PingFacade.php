@@ -4,10 +4,10 @@ namespace Heddiyoussouf\Johhdi\facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class JohhdiFacade extends Facade
+class PingFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'Joh';
+        return 'ping';
     }
 }
