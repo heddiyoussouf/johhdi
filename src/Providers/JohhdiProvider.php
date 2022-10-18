@@ -3,7 +3,7 @@
 namespace Heddiyoussouf\Johhdi\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Heddiyoussouf\Johhdi\Joh;
+use Heddiyoussouf\Johhdi\Ping;
 class JohhdiProvider extends ServiceProvider
 {
     /**
@@ -14,8 +14,8 @@ class JohhdiProvider extends ServiceProvider
     public function register()
     {
         parent::register();
-        $this->app->bind('Joh', function($app) {
-            return new Joh();
+        $this->app->bind('ping', function($app) {
+            return new Ping();
         });
     }
 
