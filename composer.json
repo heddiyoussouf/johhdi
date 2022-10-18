@@ -1,0 +1,25 @@
+{
+    "name": "heddiyoussouf/johhdi",
+    "description": "this my fucking first package in laravel",
+    "autoload": {
+        "psr-4": {
+            "Heddiyoussouf\\Johhdi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "heddi youssouf"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Heddiyoussouf\\Johhdi\\Providers\\JohhdiProvider"
+            ],
+            "aliases": {
+                "Johhdi":"Heddiyoussouf\\johhdi\facades\\JohhdiFacade"
+            }
+        }
+    }
+}
